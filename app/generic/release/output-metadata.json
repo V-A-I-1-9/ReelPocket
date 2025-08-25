@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.junkfood.seal",
+  "variantName": "genericRelease",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 200000150,
+      "versionName": "2.0.0-alpha.5",
+      "outputFile": "Seal-2.0.0-alpha.5-generic-universal-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 200000151,
+      "versionName": "2.0.0-alpha.5",
+      "outputFile": "Seal-2.0.0-alpha.5-generic-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 200000154,
+      "versionName": "2.0.0-alpha.5",
+      "outputFile": "Seal-2.0.0-alpha.5-generic-x86_64-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 200000152,
+      "versionName": "2.0.0-alpha.5",
+      "outputFile": "Seal-2.0.0-alpha.5-generic-arm64-v8a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 200000153,
+      "versionName": "2.0.0-alpha.5",
+      "outputFile": "Seal-2.0.0-alpha.5-generic-x86-release.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/Seal-2.0.0-alpha.5-generic-universal-release.dm",
+        "baselineProfiles/1/Seal-2.0.0-alpha.5-generic-armeabi-v7a-release.dm",
+        "baselineProfiles/1/Seal-2.0.0-alpha.5-generic-x86_64-release.dm",
+        "baselineProfiles/1/Seal-2.0.0-alpha.5-generic-arm64-v8a-release.dm",
+        "baselineProfiles/1/Seal-2.0.0-alpha.5-generic-x86-release.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/Seal-2.0.0-alpha.5-generic-universal-release.dm",
+        "baselineProfiles/0/Seal-2.0.0-alpha.5-generic-armeabi-v7a-release.dm",
+        "baselineProfiles/0/Seal-2.0.0-alpha.5-generic-x86_64-release.dm",
+        "baselineProfiles/0/Seal-2.0.0-alpha.5-generic-arm64-v8a-release.dm",
+        "baselineProfiles/0/Seal-2.0.0-alpha.5-generic-x86-release.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 24
+}
